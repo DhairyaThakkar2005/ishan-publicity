@@ -11,7 +11,7 @@ const fadeUp = {
 };
 
 const stats = [
-  { value: "14+", label: "Years Experience", icon: TrendingUp },
+  { value: "20+", label: "Years Experience", icon: TrendingUp },
   { value: "500+", label: "Campaigns Executed", icon: Target },
   { value: "60+", label: "Cities Covered", icon: MapPin },
   { value: "3000+", label: "Locations Activated", icon: Users },

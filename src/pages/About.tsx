@@ -20,7 +20,7 @@ const About = () => (
             Your Trusted <span className="gradient-text">360° Agency</span>
           </h1>
           <p className="text-secondary-foreground/60 text-lg max-w-2xl leading-relaxed">
-            With over 14 years of industry expertise, Ishan Publicity has been at the forefront of advertising and promotions, successfully executing 500+ campaigns across 60+ cities in India.
+            With over 20 years of industry expertise, Ishan Publicity has been at the forefront of advertising and promotions, successfully executing 500+ campaigns across 60+ cities in India.
           </p>
         </motion.div>
       </div>
