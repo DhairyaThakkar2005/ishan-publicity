@@ -106,7 +106,12 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Office</h4>
-                    <p className="text-muted-foreground text-sm">Mumbai, Maharashtra<br />India</p>
+                    <p className="text-muted-foreground text-sm leading-relaxed">
+                      A Wing, 202, OM DIVYA,<br />
+                      Near Sona Cinema (Cinemax),<br />
+                      Trikamdass Road, Kandivali West,<br />
+                      Mumbai - 400067, Maharashtra, India
+                    </p>
                   </div>
                 </div>
               </div>
