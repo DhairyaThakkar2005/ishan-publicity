@@ -41,7 +41,7 @@ const Navbar = () => {
             </Link>
           ))}
           <Button asChild size="sm">
-            <Link to="/contact">Get a Quote</Link>
+            <Link to="/inquiry">Get a Quote</Link>
           </Button>
         </div>
 
@@ -69,7 +69,7 @@ const Navbar = () => {
               </Link>
             ))}
             <Button asChild className="mt-2 w-full">
-              <Link to="/contact" onClick={() => setOpen(false)}>Get a Quote</Link>
+              <Link to="/inquiry" onClick={() => setOpen(false)}>Get a Quote</Link>
             </Button>
           </div>
         </div>

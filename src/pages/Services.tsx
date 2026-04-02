@@ -231,7 +231,7 @@ const Services = () => (
           size="lg"
           className="text-base px-10 py-6"
         >
-          <Link to="/contact">Discuss Your Project</Link>
+          <Link to="/inquiry">Discuss Your Project</Link>
         </Button>
       </div>
     </section>
