@@ -7,7 +7,7 @@ import airtel from "@/assets/airtel.png";
 import paytm from "@/assets/paytm.png";
 import xiaomi from "@/assets/temp.png";
 import colgate from "@/assets/colgate.png";
-import samsung from "@/assets/samsung.png";
+import samsung from "@/assets/temp1.png";
 import vodafone from "@/assets/vodafone.png";
 import itc from "@/assets/itc.png";
 import godrej from "@/assets/godrej.png";
