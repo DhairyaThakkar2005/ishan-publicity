@@ -19,7 +19,7 @@ import havells from "@/assets/havells.png";
 import bajaj from "@/assets/bajaj.png";
 
 const clients = [
-  { name: "HUL", logo: hul, className: "scale-125" },
+  { name: "HUL", logo: hul, className: "scale-110" },
   { name: "Nestlé", logo: nestle },
   { name: "Airtel", logo: airtel },
   { name: "Paytm", logo: paytm },
