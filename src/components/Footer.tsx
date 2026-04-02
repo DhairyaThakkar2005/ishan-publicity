@@ -10,7 +10,7 @@ const Footer = () => (
             Ishan<span className="text-primary">Publicity</span>
           </h3>
           <p className="text-secondary-foreground/60 text-sm leading-relaxed">
-            A 360° advertising and promotions agency with 14+ years of experience bringing brands to life across India.
+            A 360° advertising and promotions agency with 20+ years of experience bringing brands to life across India.
           </p>
         </div>
 
@@ -38,8 +38,8 @@ const Footer = () => (
         <div>
           <h4 className="font-display font-semibold mb-4 text-sm uppercase tracking-wider text-primary">Contact</h4>
           <div className="flex flex-col gap-3 text-sm text-secondary-foreground/60">
-            <div className="flex items-center gap-2"><Phone size={14} className="text-primary" /> +91 98200 00000</div>
-            <div className="flex items-center gap-2"><Mail size={14} className="text-primary" /> info@ishanpublicity.com</div>
+            <div className="flex items-center gap-2"><Phone size={14} className="text-primary" /> +91 9833232377</div>
+            <div className="flex items-center gap-2"><Mail size={14} className="text-primary" /> ishanpublicity@gmail.com</div>
             <div className="flex items-start gap-2"><MapPin size={14} className="text-primary mt-0.5" /> Mumbai, Maharashtra, India</div>
           </div>
         </div>
