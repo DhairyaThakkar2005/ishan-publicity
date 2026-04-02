@@ -19,22 +19,22 @@ import havells from "@/assets/havells.png";
 import bajaj from "@/assets/bajaj.png";
 
 const clients = [
-  { name: "HUL", logo: hul },
+  { name: "HUL", logo: hul, className: "scale-125" },
   { name: "Nestlé", logo: nestle },
   { name: "Airtel", logo: airtel },
   { name: "Paytm", logo: paytm },
   { name: "Xiaomi", logo: xiaomi },
   { name: "Colgate", logo: colgate },
   { name: "Samsung", logo: samsung },
-  { name: "Vodafone", logo: vodafone },
+  { name: "Vodafone", logo: vodafone, className: "scale-110" },
   { name: "ITC", logo: itc },
-  { name: "Godrej", logo: godrej },
+  { name: "Godrej", logo: godrej, className: "scale-125" },
   { name: "Marico", logo: marico },
   { name: "Dabur", logo: dabur },
   { name: "Asian Paints", logo: asianpaints },
-  { name: "Britannia", logo: britannia },
+  { name: "Britannia", logo: britannia, className: "scale-150" },
   { name: "Havells", logo: havells },
-  { name: "Bajaj", logo: bajaj },
+  { name: "Bajaj", logo: bajaj, className: "scale-110" },
 ];
 
 const Clients = () => (
@@ -73,12 +73,12 @@ const Clients = () => (
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.05 }}
-              className="h-24 rounded-xl border border-border bg-card flex items-center justify-center hover-lift"
+              className="h-24 rounded-xl border border-border bg-card flex items-center justify-center p-4 hover-lift"
             >
               <img
                 src={client.logo}
                 alt={client.name}
-                className="h-10 object-contain grayscale hover:grayscale-0 transition duration-300"
+                className={`max-h-full max-w-full object-contain grayscale hover:grayscale-0 transition duration-300 ${client.className || ""}`}
               />
             </motion.div>
           ))}
