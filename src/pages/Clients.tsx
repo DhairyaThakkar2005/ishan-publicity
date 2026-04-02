@@ -5,7 +5,7 @@ import hul from "@/assets/hul.png";
 import nestle from "@/assets/nestle.png";
 import airtel from "@/assets/airtel.png";
 import paytm from "@/assets/paytm.png";
-import xiaomi from "@/assets/xiaomi.png";
+import xiaomi from "@/assets/temp.png";
 import colgate from "@/assets/colgate.png";
 import samsung from "@/assets/samsung.png";
 import vodafone from "@/assets/vodafone.png";
