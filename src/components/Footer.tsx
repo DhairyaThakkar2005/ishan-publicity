@@ -42,7 +42,7 @@ const Footer = () => (
             <div className="flex items-center gap-2"><Mail size={14} className="text-primary" /> ishanpublicity@gmail.com</div>
             <div className="flex items-start gap-2"><MapPin size={14} className="text-primary mt-0.5" /> A Wing, 202, OM DIVYA,<br />
                 Near Sona Cinema (Cinemax),<br />
-                Trikamdass Road, Kandivali West,<br />
+                Trikamdas Road, Kandivali West,<br />
                 Mumbai - 400067, Maharashtra, India</div>
           </div>
         </div>

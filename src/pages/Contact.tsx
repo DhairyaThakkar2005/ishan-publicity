@@ -113,7 +113,7 @@ const Contact = () => {
                       <br />
                       Near Sona Cinema (Cinemax),
                       <br />
-                      Trikamdass Road, Kandivali West,
+                      Trikamdas Road, Kandivali West,
                       <br />
                       Mumbai - 400067, Maharashtra, India
                     </p>
