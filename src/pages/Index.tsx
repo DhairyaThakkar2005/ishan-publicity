@@ -2,6 +2,14 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import SectionHeading from "@/components/SectionHeading";
 import { motion } from "framer-motion";
+import hul from "@/assets/hul.png";
+import nestle from "@/assets/nestle.png";
+import airtel from "@/assets/airtel.png";
+import paytm from "@/assets/paytm.png";
+import xiaomi from "@/assets/xiaomi.png";
+import colgate from "@/assets/colgate.png";
+import samsung from "@/assets/samsung.png";
+import vodafone from "@/assets/vodafone.png";
 import {
   TrendingUp,
   Users,
@@ -62,14 +70,14 @@ const services = [
 ];
 
 const clientLogos = [
-  "HUL",
-  "Nestlé",
-  "Airtel",
-  "Paytm",
-  "Xiaomi",
-  "Colgate",
-  "Samsung",
-  "Vodafone",
+  { name: "HUL", logo: hul, className: "h-14" },
+  { name: "Nestlé", logo: nestle, className: "h-10" },
+  { name: "Airtel", logo: airtel, className: "h-10" },
+  { name: "Paytm", logo: paytm, className: "h-10" },
+  { name: "Xiaomi", logo: xiaomi, className: "h-10" },
+  { name: "Colgate", logo: colgate, className: "h-12 scale-125" },
+  { name: "Samsung", logo: samsung, className: "h-8" },
+  { name: "Vodafone", logo: vodafone, className: "h-10 mix-blend-multiply scale-105" },
 ];
 
 const Index = () => (
@@ -212,18 +220,20 @@ const Index = () => (
           subtitle="We've partnered with some of India's most recognized brands to deliver exceptional campaigns."
         />
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
-          {clientLogos.map((name, i) => (
+          {clientLogos.map((client, i) => (
             <motion.div
-              key={name}
+              key={client.name}
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.05 }}
-              className="h-20 rounded-lg border border-border bg-card flex items-center justify-center hover-lift"
+              className="h-20 rounded-lg border border-border bg-card flex items-center justify-center p-4 hover-lift"
             >
-              <span className="font-display font-bold text-muted-foreground/50 text-lg">
-                {name}
-              </span>
+              <img
+                src={client.logo}
+                alt={client.name}
+                className={`object-contain grayscale hover:grayscale-0 transition duration-300 ${client.className}`}
+              />
             </motion.div>
           ))}
         </div>
